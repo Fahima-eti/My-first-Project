@@ -2,7 +2,6 @@ abstract class Role{
   void displayRole();
 
 }
-//person class
 class person implements Role{
   String name;
   int age;
