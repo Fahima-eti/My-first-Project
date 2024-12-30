@@ -6,9 +6,9 @@ abstract class Role{
 class person implements Role{
   String name;
   int age;
- String address;
+  String address;
 
- person(this.name,this.age,this.address);
+  person(this.name,this.age,this.address);
 
   @override
   void displayRole() {
@@ -47,7 +47,7 @@ class Teacher extends person{
 
     for(int i=0;i<courses.length;i++){
 
-   print("${courses[i]}");
+      print("${courses[i]}");
     }
   }
 }
@@ -65,7 +65,7 @@ void main(){
 
   Fahima.CalculateAverage(90, 85, 92);
 
-print("================================");
+  print("================================");
 
   Teacher Alokh = Teacher(6600, ["Math","English","Science"]);
 
