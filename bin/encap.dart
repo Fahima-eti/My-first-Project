@@ -1,9 +1,10 @@
 import 'Restaurant.dart';
-
 void main(){
-  Restaurant kfc = Restaurant();
-  //kfc.id = 1010;
-  kfc.setId = 567;
-  print(kfc.restaurantId);
-  print(kfc.order("french fry"));
+   Restauranrt kfc = Restauranrt();
+  //kfc.Shopping("ckn fry");
+   print(kfc.resaddress);
+   kfc.setaddrse = "PTI More";
+print(kfc.resaddress);
+
+  print(kfc.takeOrder("Ckn fry"));
 }
