@@ -1,22 +1,18 @@
- class Restaurant {
-  int _id = 1090;
-
-   Restaurant(){
-     _shopping();
-   }
-  String order(String item) {
-    _prepareItem(item);
-    return "$item served";
+class Restauranrt{
+  String _address = "Moilapota More,Khulna";
+  takeOrder(String item){
+    _Shopping(item);
+    _prepare(item);
+    return "$item is served";
   }
-
-  _prepareItem(String item) {
-    print("make $item");
+  _prepare(String item){
+    print("$item is making");
   }
-  _shopping(){
-    print("Bye material");
+  _Shopping(String item){
+    print("By meterial $item");
   }
-  set setId(int value){
-     _id = value;
+  String get resaddress =>_address;
+  set setaddrse(String value){
+    _address;
   }
-  int get restaurantId => _id;
 }

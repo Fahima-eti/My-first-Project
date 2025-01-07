@@ -1,16 +1,30 @@
 void main(){
-  var orderList =[
-    {'name':'fahima','amount':1700,'address':'dhaka'},
-    {'name':'muaz','amount':250,'address':'khulna'},
-    {'name':'jojo','amount':550,'address':'gulshan'},
-    {'name':'momo','amount':700,'address':'pakistan'}
-  ];
-  int totalOrderAmount = 0;
-for (var order in orderList){
-  totalOrderAmount +=order ['amount']as int;
-  print("order amount is ${order['amount']}");
+
+ /* switch("Friday"){
+    case"Friday":
+      print("Ami basai thakbo");
+      break;
+    case "Sunday":
+      print("Ami jym a jabo");
+      break;
+
+    default:
+      print("Ami kothao jabo nah");
+  }*/
+ /* var amount = 100;
+  if(amount>=500){
+    print("Ami car a jabo");
+  }else if(amount<200){
+    print("Ami rikshai jabo");
+  }else{
+    print("Ami jabo na");
+  }*/
+  //int numbers = 5;
+ /* for(int i=0;i<10;i++){
+    print("7*${i+1} = ${7*(i+1)}");
+  }*/
+  var name = ["Muaz","Fahia","Sabiha","Mahin"];
+  for(int i=0;i<name.length;i++){
+    print("Good morning:${i}name");
+  }
 }
-}
-
-
-
